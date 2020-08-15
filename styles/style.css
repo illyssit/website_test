@@ -2,6 +2,7 @@ html {
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
     background-color: #424b53;
+    align-items: center;
 }
 
 h1 {
@@ -27,10 +28,28 @@ body {
     border: 5px solid black;
 }
 
-img{
+img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
     height: 100%;
     width: 100%;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+.grumpy {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    font-size: 16px;
+}
+
+.happy {
+    text-align: center;
 }
